@@ -1,4 +1,4 @@
-window.onload = function(){
+window.addEventListener("load",function(event) {
 	var getNavi = document.getElementById('navigation');
 
 	var mobile = document.createElement("span");
@@ -35,4 +35,4 @@ window.onload = function(){
 			getElm[i].lastChild.style.backgroundImage='url(images/mobile/mobile-collapse.png)';
 		}
 	};
-};
+});
