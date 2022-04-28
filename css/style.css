@@ -66,6 +66,9 @@ p a:hover {
 	font-size: 26px;
 	text-transform: uppercase;
 }
+#mobile-navigation {
+	visibility: hidden;
+}
 #header ul#navigation {
 	list-style: none;
 	margin: 0;
@@ -386,37 +389,12 @@ p a:hover {
 	width: auto;
 }
 #footer div#connect a {
-	background: url(../images/icons.png) no-repeat;
+	color: #b8cc51;
+	font-size: 30px;
 	display: block;
 	float: left;
-	text-indent: -99999px;
-}
-#footer div#connect a#facebook {
-	background-position: 0 0;
-	height: 30px;
-	width: 16px;
 }
 #footer div#connect a#twitter {
-	background-position: 0 -30px;
-	height: 30px;
 	margin: 0 0 0 28px;
-	width: 37px;
 }
-#footer div#connect a#googleplus {
-	background-position: 0 -61px;
-	height: 32px;
-	margin: 0 0 0 19px;
-	width: 32px;
-}
-#footer div#connect a#googleplus {
-	background-position: 0 -61px;
-	height: 32px;
-	margin: 0 0 0 19px;
-	width: 32px;
-}
-#footer div#connect a#pinterest {
-	background-position: 0 -94px;
-	height: 30px;
-	margin: 0 0 0 23px;
-	width: 30px;
-}
+

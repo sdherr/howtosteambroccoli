@@ -4,7 +4,6 @@
 		-webkit-text-size-adjust: none;
 	}
 	#mobile-navigation {
-		background: url(../images/mobile/mobile-menu.png) no-repeat 0 0;
 		display: block;
 		height: 50px;
 		margin: 0;
@@ -14,9 +13,11 @@
 		top: 20px;
 		width: 50px;
 		z-index: 1001;
+		font-size: 30px;
+		color: #b8cc51;
+		visibility: visible;
 	}
 	#header ul#navigation {
-		background: url(../images/mobile/bg-mobile.png);
 		border: 1px solid #b8cc51;
 		display: none;
 		font-size: 1.5625em;
@@ -29,6 +30,7 @@
 		transition: all .5s ease-in-out;
 		width: 100%;
 		z-index: 1001;
+		background: #3c4f29;
 	}
 	#header ul#navigation li {
 		background: none;
@@ -61,7 +63,6 @@
 		width: auto;
 	}
 	#header ul#navigation li span {
-		background: transparent url(../images/mobile/mobile-expand.png) no-repeat;
 		border-left: 1px solid #b8cc51;
 		border-top: 1px solid #b8cc51;
 		display: block;
@@ -70,9 +71,6 @@
 		right: 0;
 		top: 0;
 		width: 50px;
-	}
-	#header ul#navigation li.current span {
-		background: url(../images/mobile/mobile-expand.png) no-repeat;
 	}
 	#header ul#navigation li.current ul li a {
 		background: none;
@@ -233,7 +231,7 @@
 	#footer div#connect {
 		float: none;
 		margin: 30px auto 0;
-		max-width: 185px;
+		max-width: 80px;
 	}
 }
 @media screen

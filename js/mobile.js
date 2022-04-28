@@ -5,14 +5,17 @@ window.addEventListener("load",function(event) {
 	mobile.setAttribute("id","mobile-navigation");
 	getNavi.parentNode.insertBefore(mobile,getNavi);
 
+	var bars = document.createElement("i");
+	bars.classList.add("fa-solid");
+	bars.classList.add("fa-bars");
+	mobile.appendChild(bars);
+
 	document.getElementById('mobile-navigation').onclick = function(){
 		var a = getNavi.getAttribute('style');
 		if(a){
 			getNavi.removeAttribute('style');
-			document.getElementById('mobile-navigation').style.backgroundImage='url(images/mobile/mobile-menu.png)';
 		} else {
 			getNavi.style.display='block';
-			document.getElementById('mobile-navigation').style.backgroundImage='url(images/mobile/mobile-close.png)';
 		}
 	};
 	var getElm = getNavi.getElementsByTagName("LI");
@@ -29,10 +32,10 @@ window.addEventListener("load",function(event) {
 		var b = sub.getAttribute('style');
 		if(b){
 			sub.removeAttribute('style');
-			getElm[i].lastChild.style.backgroundImage='url(images/mobile/mobile-expand.png)';
+			//getElm[i].lastChild.style.backgroundImage='url(images/mobile/mobile-expand.png)';
 		} else {
 			sub.style.display='block';
-			getElm[i].lastChild.style.backgroundImage='url(images/mobile/mobile-collapse.png)';
+			//getElm[i].lastChild.style.backgroundImage='url(images/mobile/mobile-collapse.png)';
 		}
 	};
 });
