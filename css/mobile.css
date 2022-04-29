@@ -5,14 +5,9 @@
 	}
 	#mobile-navigation {
 		display: block;
-		height: 50px;
-		margin: 0;
-		padding: 0;
+		padding: 0 10px;
 		position: absolute;
-		right: 0;
 		top: 20px;
-		width: 50px;
-		z-index: 1001;
 		font-size: 30px;
 		color: #b8cc51;
 		visibility: visible;
@@ -119,7 +114,7 @@
 	}
 	#body {
 		margin: 20px auto 0;
-		padding: 45px 0 46px;
+		padding: 20px 20px 20px;
 		width: 90%;
 	}
 	#body div#tagline {
@@ -145,9 +140,6 @@
 	#body > h2 {
 		padding: 0 20px 30px;
 	}
-	#body div.content {
-		padding: 0 20px;
-	}
 	#body div.content div,
 	#footer div {
 		float: none;
@@ -160,10 +152,18 @@
 		padding: 30px 0 0;
 		width: auto;
 	}
+	#body div.content div ul {
+		padding: 0;
+	}
 	#body div.content div ul li {
 		margin: 0 5%;
 		width: 90%;
 		padding: 15px 0 0 0;
+	}
+	#body div.content div ul li img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#body div.content div ul li:first-child {
 		margin: 0 5%;
@@ -197,8 +197,7 @@
 		padding: 30px 0 0;
 	}
 	#body ul.blog li img {
-		margin: 0 0 20px;
-		width: 100%;
+		margin: 0 20px;
 	}
 	#body ul.blog li h3 {
 		line-height: 1.35em;
