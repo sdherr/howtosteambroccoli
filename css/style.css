@@ -295,7 +295,7 @@ p a:hover {
 }
 #body ul.blog li {
 	overflow: hidden;
-	padding: 104px 100px 0 0;
+	padding: 10px 100px 0 0;
 }
 #body ul.blog li:first-child {
 	padding: 0 100px 0 0;
